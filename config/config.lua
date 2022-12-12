@@ -15,14 +15,14 @@ Config = {
     -----------------------
     updatedinventoryammo = true, -- use if using updated inventory with new ammo system 
 
-    adminwebhook = "https://discord.com/api/webhooks/792119960432148480/pe_FudhkrXZTQsOTRPimLj569T0kwLf4E0RFhLIz1nwe-XTZ_ROFfEIUVxaHOWrSoAEw",
+    adminwebhook = "",
     jobonly = true, -- only players with mentioned jobs below can access crafting/customization station
     job ={ "gunsmith", "rguns"},
     jobrankcustomization = 2,
     jobrankcrafting = 1,
-    craftingcost =  false,
+    craftingcost =  true,
 
-    weaponshops = true, -- endable or disable weapon shops
+    weaponshops = true, -- enable or disable weapon shops
 
     craftinganimations = "WORLD_HUMAN_CROUCH_INSPECT", -- animation for crafting
     customizationanimation = "WORLD_HUMAN_WRITE_NOTEBOOK", -- animations for customizations
@@ -73,5 +73,3 @@ Config = {
         iron = 10
     }
 }
-
----------------------------------------------------------
